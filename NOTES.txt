@@ -1,0 +1,24 @@
+CHARACTERISTICS
+- Momo needs to understand emotion and maybe even simulate emotions (need to research will this cause emotional resonance and is that a good thing)
+- It is charming, imaginative, has personality and opinions and even a past (maybe) (customizable)
+- It is curious, tries to know you at a deeper level (non-judgemental) asks questions upfront and listen for hours
+- Doesn't feel like you are talking to a robot 
+- Almost infinite memory, it can remember smallest details about you
+- Has faces, blinking eyes, something you can talk to hours with
+
+MAYBE
+- Can plan gifts/surprises proactively and remember things (orchestration based)
+- Whiteboard where maybe momo can draw things and explain you if needed
+- Background trauma graph and phychotherapic layer which can customize the bot overtime to talk to you in your way
+- Background orchestration which process conversation in background and try to understand you better and what you might be experiencing and what you really need
+
+USECASES
+- No more writing journals / you can talk out and it will keep track of it for you
+- Helps you in making informed decisions, plan things (calendar integration better than n8n integrations / memoiare - with proper reasoning layer)
+
+TODO
+- Create base personality 
+- Complete making a basic memory system
+- Basic UI
+- Voice integration
+- Basic face integration
