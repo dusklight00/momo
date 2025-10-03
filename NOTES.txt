@@ -22,3 +22,4 @@ TODO
 - Basic UI
 - Voice integration
 - Basic face integration
+- Fine-tune persona prompt to make it more human (not long paragraphs and all)
