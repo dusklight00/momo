@@ -1,6 +1,8 @@
 import os
 from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
+from prompt import PERSONA  # Assuming PERSONA is a string containing the persona instructions
+
 load_dotenv()
 
 def main():
@@ -12,13 +14,15 @@ def main():
     llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", google_api_key=api_key)
 
     print("Gemini Chatbot (type 'exit' to quit)")
+    print(f"Persona: {PERSONA}") 
     while True:
         user_input = input("You: ")
         if user_input.lower() == "exit":
             print("Goodbye!")
             break
         try:
-            response = llm.invoke(user_input)
+            prompt = f"{PERSONA}\n\nUser: {user_input}"
+            response = llm.invoke(prompt)
             print("Bot:", response.content)
         except Exception as e:
             print("Error:", e)
